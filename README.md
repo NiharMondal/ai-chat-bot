@@ -10,7 +10,7 @@ The Chatbot Application is an AI-powered chatbot designed to engage in real-time
 
 -   Customizable Personality: Tailor the chatbot’s responses and tone.
 
--   Multi-platform Support: Integrates seamlessly with websites, and mobile browser.
+-   Multi-platform Support: Integrates seamlessly with websites, and mobile browsers.
 
 -   Intuitive UI: Easy-to-use chat interface.
 

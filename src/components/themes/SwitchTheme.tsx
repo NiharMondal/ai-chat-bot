@@ -26,7 +26,7 @@ const ThemeSwitch = () => {
 	return (
 		<div className="absolute right-5 top-5">
 			<Select value={currentTheme} onValueChange={(e) => setTheme(e)}>
-				<SelectTrigger className="w-[180px]">
+				<SelectTrigger className="max-w-fit">
 					<SelectValue placeholder="Theme" />
 				</SelectTrigger>
 				<SelectContent>
