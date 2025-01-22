@@ -83,8 +83,6 @@ body {
     .custom_animation{
       transition: all 1ms;
       animation: fade-in 1s ease-in-out;
-     
-      
     }
 
     @keyframes fade-in {
