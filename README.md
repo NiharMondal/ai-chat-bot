@@ -14,6 +14,8 @@ The Chatbot Application is an AI-powered chatbot designed to engage in real-time
 
 -   Intuitive UI: Easy-to-use chat interface.
 
+-   Theme: Light And Dark
+
 ### Tech Stack
 
 -   Frontend: Next.js, React.js, TailwindCSS, Shadcn
