@@ -29,7 +29,7 @@ The Chatbot Application is an AI-powered chatbot designed to engage in real-time
 1. Clone the repository:
 
 ```bash
-    git clone https://github.com/yourusername/chatbot-app.git
+    git clone https://github.com/NiharMondal/ai-chat-bot
 ```
 
 2. Navigate to the project directory:
