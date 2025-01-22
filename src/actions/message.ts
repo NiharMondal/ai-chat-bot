@@ -4,7 +4,7 @@ const url = process.env.NEXT_PUBLIC_URL;
 
 export const handleMessage = async (formData: FormData) => {
 	const data = {
-		text: formData.get("text") as string | "Hey buddy!",
+		text: (formData.get("text") as string) || "Hey buddy!",
 	};
 
 	const res = await fetch(`${url}/api/chat`, {
