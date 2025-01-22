@@ -1,16 +1,15 @@
 "use server";
 
+const url = process.env.NEXT_PUBLIC_URL;
+
 export const handleMessage = async (formData: FormData) => {
 	const data = {
 		text: formData.get("text") as string,
 	};
 
-	const res = await fetch(process.env.NEXT_PUBLIC_URL as string, {
+	const res = await fetch(`${url}/api/chat` as string, {
 		method: "POST",
 		body: JSON.stringify(data),
-		headers: {
-			"Content-Type": "application/json",
-		},
 	});
 
 	if (!res.ok) {
