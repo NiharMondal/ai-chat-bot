@@ -5,9 +5,12 @@ export const handleMessage = async (formData: FormData) => {
 		text: formData.get("text") as string,
 	};
 
-	const res = await fetch("http://localhost:3000/api/chat", {
+	const res = await fetch(process.env.NEXT_PUBLIC_URL as string, {
 		method: "POST",
 		body: JSON.stringify(data),
+		headers: {
+			"Content-Type": "application/json",
+		},
 	});
 
 	if (!res.ok) {
