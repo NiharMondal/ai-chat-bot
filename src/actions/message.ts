@@ -7,7 +7,7 @@ export const handleMessage = async (formData: FormData) => {
 		text: formData.get("text") as string,
 	};
 
-	const res = await fetch(`${url}/api/chat` as string, {
+	const res = await fetch(`${url}/api/chat`, {
 		method: "POST",
 		body: JSON.stringify(data),
 	});

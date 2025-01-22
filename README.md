@@ -20,6 +20,8 @@ The Chatbot Application is an AI-powered chatbot designed to engage in real-time
 
 -   Backend: Node.js with Next.js API route handler
 
+-   AI Model: Gemini
+
 -   Hosting: Vercel
 
 ### Installation
